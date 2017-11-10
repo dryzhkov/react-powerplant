@@ -39,7 +39,8 @@ export class Broker extends React.Component<IBrokerProps, IBrokerState> {
       },
       container: {
         width: '20%',
-        marginRight: '5%'
+        marginRight: '5%',
+        minWidth: '220px'
       },
       timer: {
         marginTop: 16

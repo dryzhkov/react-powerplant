@@ -59,7 +59,7 @@ export class DataCollector extends React.Component<ICollectorProps, ICollectorSt
   render() {
 
     return (
-      <Paper zDepth={2}>
+      <Paper zDepth={2} style={{minWidth: '900px'}}>
         <h3>Data Collector</h3>
         <LineChart width={900} height={600} data={this.state.data}>
           {this.state.labels.map(this.renderLine, this)}

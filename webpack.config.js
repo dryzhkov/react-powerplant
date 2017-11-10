@@ -1,6 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
-const PROD = JSON.parse(!process.env.NODE_ENV || '0');
+const PROD = JSON.parse(process.env.NODE_ENV || false);
 
 module.exports = {
   devtool: PROD ? '' : 'eval',

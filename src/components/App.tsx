@@ -9,6 +9,7 @@ export class App extends React.Component<{}, {}> {
         <AppBar
           title="Power Plant Simulator"
           iconClassNameRight="muidocs-icon-navigation-expand-more"
+          style={{backgroundColor:'#61AAB3'}}
         />
         <PowerPlant />
       </div>

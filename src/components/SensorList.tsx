@@ -35,7 +35,8 @@ class SensorList extends React.Component<ISensorProps, ISensorListState> {
       paperWrapper: {
         overflow: 'hidden',
         width: '20%',
-        marginRight: '5%'
+        marginRight: '5%',
+        minWidth: '220px'
       }
     };
 
