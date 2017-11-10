@@ -3,3 +3,4 @@ static/bundle.js
 .vscode
 __snapshots__
 .DS_Store
+dist/
